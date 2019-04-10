@@ -79,7 +79,7 @@
 <script>
 import { mapGetters, mapState } from "vuex";
 import Modal from "@/components/Modal.vue";
-import RegForm from "@/components/RegForm.vue";
+import RegForm from "@/components/forms/Reg.vue";
 
 export default {
   name: "navbaraccount",

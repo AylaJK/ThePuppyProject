@@ -21,7 +21,7 @@
 import { mapGetters } from "vuex";
 
 import CardList from "@/components/CardList.vue";
-import AuctionCard from "@/components/AuctionCard.vue";
+import AuctionCard from "@/components/cards/Auction.vue";
 import SearchBar from "@/components/SearchBar.vue";
 
 export default {

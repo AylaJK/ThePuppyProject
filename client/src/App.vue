@@ -53,9 +53,9 @@ import { mapState, mapGetters } from "vuex";
 import { Auctions, Bids, Dogs, Ping, Users, setStore } from "@/api_polling";
 
 // @ is an alias to /src
-import NavbarAccount from "@/components/NavbarAccount.vue";
-import NavbarStatus from "@/components/NavbarStatus.vue";
-import NavbarLink from "@/components/NavbarLink.vue";
+import NavbarAccount from "@/components/navbar/Account.vue";
+import NavbarStatus from "@/components/navbar/Status.vue";
+import NavbarLink from "@/components/navbar/Link.vue";
 
 export default {
   components: {

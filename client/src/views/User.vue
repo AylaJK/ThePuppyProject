@@ -17,8 +17,8 @@ import { mapGetters } from "vuex";
 import flatMap from "lodash/flatMap";
 
 import CardList from "@/components/CardList.vue";
-import DogCard from "@/components/DogCard.vue";
-import AuctionCard from "@/components/AuctionCard.vue";
+import DogCard from "@/components/cards/Dog.vue";
+import AuctionCard from "@/components/cards/Auction.vue";
 
 export default {
   name: "user",

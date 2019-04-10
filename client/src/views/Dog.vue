@@ -40,11 +40,11 @@
 import { mapGetters, mapState } from "vuex";
 import head from "lodash/head";
 
-import AuctionCard from "@/components/AuctionCard.vue";
-import UserCard from "@/components/UserCard.vue";
+import AuctionCard from "@/components/cards/Auction.vue";
+import UserCard from "@/components/cards/User.vue";
 
 import Modal from "@/components/Modal.vue";
-import DogForm from "@/components/DogForm.vue";
+import DogForm from "@/components/forms/Dog.vue";
 
 export default {
   name: "dog",

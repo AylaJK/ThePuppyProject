@@ -21,7 +21,7 @@
 import { mapGetters } from "vuex";
 
 import CardList from "@/components/CardList.vue";
-import DogCard from "@/components/DogCard.vue";
+import DogCard from "@/components/cards/Dog.vue";
 import SearchBar from "@/components/SearchBar.vue";
 
 export default {

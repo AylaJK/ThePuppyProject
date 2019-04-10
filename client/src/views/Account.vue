@@ -57,13 +57,13 @@ import { mapState, mapGetters } from "vuex";
 import flatMap from "lodash/flatMap";
 
 import CardList from "@/components/CardList.vue";
-import DogCard from "@/components/DogCard.vue";
-import BidCard from "@/components/BidCard.vue";
-import AuctionCard from "@/components/AuctionCard.vue";
+import DogCard from "@/components/cards/Dog.vue";
+import BidCard from "@/components/cards/Bid.vue";
+import AuctionCard from "@/components/cards/Auction.vue";
 
 import Modal from "@/components/Modal.vue";
-import DogForm from "@/components/DogForm.vue";
-import AuctionForm from "@/components/AuctionForm.vue";
+import DogForm from "@/components/forms/Dog.vue";
+import AuctionForm from "@/components/forms/Auction.vue";
 
 export default {
   name: "account",

@@ -46,10 +46,10 @@
 import Moment from "moment";
 import { mapGetters, mapState } from "vuex";
 
-import BidForm from "@/components/BidForm.vue";
+import BidForm from "@/components/forms/Bid.vue";
 
 import Modal from "@/components/Modal.vue";
-import AuctionForm from "@/components/AuctionForm.vue";
+import AuctionForm from "@/components/forms/Auction.vue";
 
 export default {
   name: "auction",
