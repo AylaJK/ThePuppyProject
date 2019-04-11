@@ -1,18 +1,11 @@
-<template>
-  <div class="card auctionCard">
-    <div class="card-body">
-      <router-link :to="{ name: 'auction', params: { id: auction.id } }">
-        <h5 class="card-title">{{ auction.name }}</h5>
-      </router-link>
-      <h6 v-if="currentAmount" class="card-subtitle mb-2 text-muted">
-        ${{ currentAmount }}
-      </h6>
-      <p v-if="!apiAvailable">Information Unavailable Offline</p>
-    </div>
-    <div v-if="apiAvailable" class="card-footer text-muted">
-      {{ endtimeString }}
-    </div>
-  </div>
+<template lang="pug">
+  div.card.auctionCard
+    div.card-body
+      router-link(":to"="{ name: 'auction', params: { id: auction.id } }")
+        h5.card-title {{ auction.name }}
+      h6.card-subtitle.mb-2.text-muted("v-if"="currentAmount") ${{ currentAmount }}
+      p("v-if"="!apiAvailable") Information Unavailable Offline
+    div.card-footer.text-muted("v-if"="apiAvailable") {{ endtimeString }}
 </template>
 
 <script>
